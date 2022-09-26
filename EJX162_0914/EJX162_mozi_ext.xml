@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mozi>
+    <film id="mov" mufaj="horror">
+        <rendezo id="dir" nev="alex"/>
+        <szinesz id="act" nev="Madison_Ivy">
+            <gyerekszinesz id="chi" nev="george"/>
+            <musicalszinesz id="mus" nev="daniel"/>
+            <szinkronszinesz id="voi" nev="judy"/>
+        </szinesz>
+        <iro id="wri" nev="john"/>
+        <producer id="pro" nev="tod"/>
+        <dramaturg id="dra" nev="lea"/>
+        <operator id="ope" nev="viktor"/>
+    </film>
+</mozi>

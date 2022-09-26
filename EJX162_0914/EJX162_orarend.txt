@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<orarend>
+    <ora id="1" tipus="elmelet">
+        <targy>Web technológiák 1</targy>
+        <idopont nap="hetfo" tol="8.00" ig="9:30"/>
+        <helyszin>A1 épület</helyszin>
+        <oktato>Agárdi Anita</oktato>
+        <szak>Vegyes</szak>
+    </ora>
+
+    <ora id="1" tipus="gyakorlat">
+        <targy>Web technológiák 1</targy>
+        <idopont nap="hetfo" tol="18.00" ig="19:30"/>
+        <helyszin>A1 épület</helyszin>
+        <oktato>Agárdi Anita</oktato>
+        <szak>Vegyes</szak>
+    </ora>
+
+    <ora id="2" tipus="elmelet">
+        <targy>Mesterséges intellegencia alapok</targy>
+        <idopont nap="kedd" tol="9.00" ig="11:15"/>
+        <helyszin>A2 épület</helyszin>
+        <oktato>Kunné Dr. Tamás Judit</oktato>
+        <szak>Vegyes</szak>
+    </ora>
+
+    <ora id="3" tipus="elmelet">
+        <targy>Adatkezelés XML-ben</targy>
+        <idopont nap="kedd" tol="12.00" ig="13:30"/>
+        <helyszin>A1 épület</helyszin>
+        <oktato>Dr. Bednarik László</oktato>
+        <szak>Vegyes</szak>
+    </ora>
+
+    <ora id="4" tipus="elmelet">
+        <targy>Algoritmusok és vizsgálatuk</targy>
+        <idopont nap="kedd" tol="14.00" ig="15:30"/>
+        <helyszin>A1 épület</helyszin>
+        <oktato>Dr. Házy Attila</oktato>
+        <szak>Programtervező informatikus</szak>
+    </ora>
+
+    <ora id="4" tipus="gyakorlat">
+        <targy>Algoritmusok és vizsgálatuk</targy>
+        <idopont nap="kedd" tol="16.00" ig="17.30"/>
+        <helyszin>A1 épület</helyszin>
+        <oktato>Dr. Házy Attila</oktato>
+        <szak>Programtervező informatikus</szak>
+    </ora>
+
+    <ora id="3" tipus="gyakorlat">
+        <targy>Web technológiák 1</targy>
+        <idopont nap="szerda" tol="12.00" ig="13:45"/>
+        <helyszin>Informatikai épület</helyszin>
+        <oktato>Dr. Bednarik László</oktato>
+        <szak>Vegyes</szak>
+    </ora>
+
+    <ora id="2" tipus="gyakorlat">
+        <targy>Mesterséges intellegencia alapok</targy>
+        <idopont nap="szerda" tol="14.00" ig="14:45"/>
+        <helyszin>Informatikai épület</helyszin>
+        <oktato>Fazekas Levente</oktato>
+        <szak>Vegyes</szak>
+    </ora>
+    
+    <ora id="5" tipus="elmelet">
+        <targy>Vállalati információs rendszerek fejlesztése</targy>
+        <idopont nap="szerda" tol="16.00" ig="17:30"/>
+        <helyszin>Informatikai épület</helyszin>
+        <oktato>Dr. Sasvári Péter</oktato>
+        <szak>Programtervező informatikus és gazdaságinformatikus</szak>
+    </ora>
+
+    <ora id="5" tipus="gyakorlat">
+        <targy>Vállalati információs rendszerek fejlesztése</targy>
+        <idopont nap="szerda" tol="18.00" ig="19.30"/>
+        <helyszin>Informatikai épület</helyszin>
+        <oktato>Dr. Sasvári Péter</oktato>
+        <szak>Programtervező informatikus és gazdaságinformatikus</szak>
+    </ora>
+</orarend>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<konferencia>
+    <cim>XML dokumentum szerkezete</cim>
+    <eloado nev="Hórász Péter" lakcim="Miskolc, Petőfi Sándor u. 2" adoszam="142536479"/>
+    <datum>2022.10.04</datum>
+    <hallgatok>
+        <hallgató id="h1" nev="Keresztes József" lakcim="Miskolc, Virág u. 42"/>
+        <hallgató id="h2" nev="Nagy Béla" lakcim="Miskolc, Thököly u. 9"/>
+    </hallgatok>
+    <helyszin>II. előadó</helyszin>
+</konferencia>
