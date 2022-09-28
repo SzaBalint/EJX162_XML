@@ -1,0 +1,27 @@
+<!ELEMENT SzB_kurzusfelvetel(hallgato, kurzusok)>
+<!ATTLIST SzB_kurzusfelvetel
+    tanev CDATA #REQUIRED
+    egyetem CDATA #FIXED "ME"
+>
+
+<!ELEMENT hallgato (hallgatonev, szulev, szak)>
+<!ATTLIST hallgato
+
+>
+
+<!ELEMENT hallgatonev(#PCDATA)>
+<!ELEMENT szulev(#PCDATA)>
+<!ELEMENT szak(#PCDATA)>
+
+<!ELEMENT kurzusok (kurzus*)>
+<ATTLIST kurzusok
+
+>
+
+<!ELEMENT kurzus (kurzusnev, kredit, hely, idopont+, oktato|oraado)>
+<!ELEMENT kurzusnev(#PCDATA)>
+<!ELEMENT kredit(#PCDATA)>
+<!ELEMENT hely(#PCDATA)>
+<!ELEMENT idopont(#PCDATA)>
+<!ELEMENT oktato(#PCDATA)>
+<!ELEMENT (#PCDATA)>
