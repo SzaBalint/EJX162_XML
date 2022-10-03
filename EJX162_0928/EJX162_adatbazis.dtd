@@ -1,0 +1,7 @@
+<!ELEMENT adatbazis (dolgozo)>
+<!ELEMENT dolgozo (nev)>
+<!ATTLIST dolgozo
+    kod ID #REQUIRED
+    fizetes NMTOKEN #IMPLIED
+>
+<!ELEMENT nev (#PCDATA)>
