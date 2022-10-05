@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<!DOCTYPE kurzusfelvetel SYSTEM "SzB_kurzusfelvetel.dtd">
+<!DOCTYPE kurzusfelvetel SYSTEM "kurzusfelvetel.dtd">
 
 <kurzusfelvetel tanev="2022_2023" egyetem="ME">
 
