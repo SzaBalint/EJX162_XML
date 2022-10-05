@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<!DOCTYPE SzB_kurzusfelvetel SYSTEM "SzB_kurzusfelvetel.dtd">
+<!DOCTYPE kurzusfelvetel SYSTEM "SzB_kurzusfelvetel.dtd">
 
-<SzB_kurzusfelvetel tanev="2022_2023" egyetem="ME">
+<kurzusfelvetel tanev="2022_2023" egyetem="ME">
 
     <hallgato id="EJX162.ME">
         <hallgatonev>Szabó Bálint</hallgatonev>
@@ -36,4 +36,4 @@
         </kurzus>
     </kurzusok>
 
-</SzB_kurzusfelvetel>
+</kurzusfelvetel>
