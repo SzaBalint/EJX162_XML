@@ -16,7 +16,7 @@
 
 <!ATTLIST kurzus
     id ID #REQUIRED
-    nylev CDATA #IMPLIED
+    nyelv CDATA #IMPLIED
     jovahagyas (igen|nem) "nem"
 >
 
