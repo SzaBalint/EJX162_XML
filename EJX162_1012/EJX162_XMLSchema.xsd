@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org=2001/XMLSchema" xmlns:tns="http://www.example.org/XY_XML">
+
+<xs:element name="vendeglatas">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="etterem" type="etteremTipus" maxOccurs="unbounded"/>
+            <xs:element name="foszakacs" type="foszakacsTipus" maxOccurs="unbounded"/>
+            <xs:element name="szakacs" type="szakacsTipus" maxOccurs="unbounded"/>
+            <xs:element name="gyakornok" type="gyakornokTipus" maxOccurs="unbounded"/>
+            <xs:element name="vendeg" type="vendegTipus" maxOccurs="unbounded"/>
+            <xs:element name="rendeles" type="rendelesTipus" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+
+    <xs:key name="etterem_kulcs">
+        <xs:selector xpath="etterem" />
+        <xs:field xpath="@ekod" />
+    </xs:key>
+
+    <xs:foreignkey name="etterem_kulcs">
+        <xs:selector xpath="etterem" />
+        <xs:field xpath="@ekod" />
+    </xs:foreignkey>
+
+
+</xs:schema>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<vendeglatas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XY_XMLSchema.xsd">
+    
+    <etterem ekod="e1">
+        <nev>Trófea</nev>
+        <cim>
+            <varos>Budapest</varos>
+            <utca>Visegrád</utca>
+            <hazszam>13</hazszam>
+        </cim>
+        <csillag>4</csillag>
+    </etterem>
+
+    <etterem ekod="e2">
+        <nev>Bitang Joe</nev>
+        <cim>
+            <varos>Miskolc</varos>
+            <utca>Kandia</utca>
+            <hazszam>14</hazszam>
+        </cim>
+        <csillag>3</csillag>
+    </etterem>
+
+    <etterem ekod="e3">
+        <nev>Rossita</nev>
+        <cim>
+            <varos>Miskolc</varos>
+            <utca>Meggyesalja</utca>
+            <hazszam>18</hazszam>
+        </cim>
+        <csillag>4</csillag>
+    </etterem>
+
+
+
+    <foszakacs fkod="f1" e_1="e1">
+        <nev>Havas Péter</nev>
+        <eletkor>35</eletkor>
+        <vegzettseg>Szakközépiskola</vegzettseg>
+        <vegzettseg>Institut Paul Bocuse</vegzettseg>
+    </foszakacs>
+
+    <foszakacs fkod="f2" e_1="e2">
+        <nev>Kiss János</nev>
+        <eletkor>42</eletkor>
+        <vegzettseg>Szakközépiskola</vegzettseg>
+        <vegzettseg>Egyetemi diploma</vegzettseg>
+    </foszakacs>
+
+    <foszakacs fkod="f3" e_1="e3">
+        <nev>Nagy Béla</nev>
+        <eletkor>30</eletkor>
+        <vegzettseg>Szakközépiskola</vegzettseg>
+    </foszakacs>
+
+
+
+    <szakacs szkod="sz1" e_sz="e1">
+        <nev>Ötlet Elek</nev>
+        <reszleg>Saucier</reszleg>
+        <vegzettseg>Szakközépiskola</vegzettseg>
+        <vegzettseg>Le Cordon Bleu</vegzettseg>
+        <vegzettseg>Institut Paul Bocuse</vegzettseg>
+    </szakacs>
+
+    <szakacs szkod="sz2" e_sz="e2">
+        <nev>Kovács Sándor</nev>
+        <reszleg>Entremetier</reszleg>
+        <vegzettseg>Szakközépiskola</vegzettseg>
+        <vegzettseg>Le Cordon Bleu</vegzettseg>
+    </szakacs>
+
+    <szakacs szkod="sz3" e_sz="e3">
+        <nev>Szabó Dániel</nev>
+        <reszleg>Entremetier</reszleg>
+        <vegzettseg>Le Cordon Bleu</vegzettseg>
+        <vegzettseg>Institut Paul Bocuse</vegzettseg>
+    </szakacs>
+
+
+
+    <gyakornok gykod="gy1" e_gy="e1">
+        <nev>Bordás Dávid</nev>
+        <gyakorlat>
+            <kezdete>2021.08.20.</kezdete>
+            <idotartama>2 hónap</idotartama>
+        </gyakorlat>
+        <muszak>Délelőtt</muszak>
+        <muszak>Este</muszak>
+    </gyakornok>
+
+    <gyakornok gykod="gy2" e_gy="e2">
+        <nev>Bordás Dávid</nev>
+        <gyakorlat>
+            <kezdete>2021.08.20.</kezdete>
+            <idotartama>2 hónap</idotartama>
+        </gyakorlat>
+        <muszak>Délelőtt</muszak>
+        <muszak>Este</muszak>
+    </gyakornok>
+
+    <gyakornok gykod="gy3" e_gy="e3">
+        <nev>Bordás Dávid</nev>
+        <gyakorlat>
+            <kezdete>2021.08.20.</kezdete>
+            <idotartama>2 hónap</idotartama>
+        </gyakorlat>
+        <muszak>Délelőtt</muszak>
+        <muszak>Este</muszak>
+    </gyakornok>
+
+
+
+    <vendeg vkod="v1">
+        <nev>Fekete Péter</nev>
+        <eletkor>21</eletkor>
+        <cim>
+            <varos>Miskolc</varos>
+            <utca>Márton</utca>
+            <hazszam>17</hazszam>
+        </cim>
+    </vendeg>
+
+    <vendeg vkod="v2">
+        <nev>Lajtos Bence</nev>
+        <eletkor>23</eletkor>
+        <cim>
+            <varos>Miskolc</varos>
+            <utca>Berekalja</utca>
+            <hazszam>17</hazszam>
+        </cim>
+    </vendeg>
+
+    <vendeg vkod="v3">
+        <nev>Karika Kristóf</nev>
+        <eletkor>20</eletkor>
+        <cim>
+            <varos>Miskolc</varos>
+            <utca>Bollóalja</utca>
+            <hazszam>2</hazszam>
+        </cim>
+    </vendeg>
+
+
+
+    <rendeles e_v_e="e1" e_v_v="v1">
+        <osszeg>9000</osszeg>
+        <etel>Steak</steak>
+    </rendeles>
+
+    <rendeles e_v_e="e2" e_v_v="v2">
+        <osszeg>5000</osszeg>
+        <etel>Bolognai spagetti</steak>
+    </rendeles>
+
+    <rendeles e_v_e="e3" e_v_v="v3">
+        <osszeg>2500</osszeg>
+        <etel>Hamburger</steak>
+    </rendeles>
+
+
+</vendeglatas>
