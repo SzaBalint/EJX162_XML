@@ -20,10 +20,27 @@
         <xs:field xpath="@ekod" />
     </xs:key>
 
-    <xs:foreignkey name="etterem_kulcs">
-        <xs:selector xpath="etterem" />
-        <xs:field xpath="@ekod" />
-    </xs:foreignkey>
+    <xs:keyref refer="etterem_kulcs" name="etterem_idegencs_kulcs">
+        <xs:selector xpath="rendeles" />
+        <xs:field xpath="@e_v_e" />
+    </xs:keyref>
+
+    <xs:keyref refer="vendeg_kulcs" name="vendeg_idegencs_kulcs">
+        <xs:selector xpath="rendeles" />
+        <xs:field xpath="@e_v_v" />
+    </xs:keyref>
+
+    <xs:keyref refer="etterem_kulcs" name="etterem_foszakacs_idegencs_kulcs">
+        <xs:selector xpath="foszakacs" />
+        <xs:field xpath="@e_f" />
+    </xs:keyref>
+
+    <xs:keyref refer="etterem_kulcs" name="etterem_szakacs_idegencs_kulcs">
+        <xs:selector xpath="szakacs" />
+        <xs:field xpath="@e_sz" />
+    </xs:keyref>
+
+
 
 
 </xs:schema>
