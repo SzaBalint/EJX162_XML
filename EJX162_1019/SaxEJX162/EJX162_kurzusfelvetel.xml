@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE SzB_kurzusfelvetel SYSTEM "SzB_kurzusfelvetel.dtd">
+
+<SzB_kurzusfelvetel tanev="2022_2023" egyetem="ME">
+
+    <hallgato id="EJX162.ME">
+        <hallgatonev>Szabó Bálint</hallgatonev>
+        <szulev>2002_04_05</szulev>
+        <szak evf="5">Programtervező informatikus</szak>
+    </hallgato>
+
+    <kurzusok>
+        <kurzus id="GEIAL322-B">
+            <kurzusnev>Adatkezelés XML környezetben</kurzusnev>
+            <kredit>5</kredit>
+            <hely>XXXII.</hely>
+            <idopont>Kedd 12:00-13:30</idopont>
+            <oktato>Dr. Bednarik László</oktato>
+        </kurzus>
+
+        <kurzus id="GEIAK130-B" jovahagyas="igen">
+            <kurzusnev>Mesterséges inteligencia</kurzusnev>
+            <kredit>5</kredit>
+            <hely>II.</hely>
+            <idopont>Kedd 9:00-11:15</idopont>
+            <oktato>Dr. Kunné Tamás Judit</oktato>
+        </kurzus>
+
+        <kurzus id="GEIAL315-B" nyelv="angol">
+            <kurzusnev>Vállalati információs rendszerek fejlesztése</kurzusnev>
+            <kredit>5</kredit>
+            <hely>In103</hely>
+            <idopont>Szerda 16:00-19:00</idopont>
+            <oraado>Dr. Sasvári Péter</oraado>
+        </kurzus>
+    </kurzusok>
+
+</SzB_kurzusfelvetel>
