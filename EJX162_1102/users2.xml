@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<users xmlns="DOMEJX162">
+  <user id="1">
+    <firstName>Pal</firstName>
+    <lastName>Kiss</lastName>
+    <profession>Web Developer</profession>
+  </user>
+  <user id="2">
+    <firstName>Bela</firstName>
+    <lastName>Nagy</lastName>
+    <profession>Manager</profession>
+  </user>
+  <user id="3">
+    <firstName>Tamas</firstName>
+    <lastName>Kovacs</lastName>
+    <profession>Java programozo</profession>
+  </user>
+</users>
