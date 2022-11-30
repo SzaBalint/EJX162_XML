@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet  type="text/xsl" href="studentEJX162.xsl"?>
+
+<class>
+    <student id = "01">
+        <vezeteknev>Kiss</vezeteknev>
+        <keresztnev>Daniel</keresztnev>
+        <becenev>Dani</becenev>
+        <kor>23</kor>
+    </student>
+
+    <student id = "02">
+        <vezeteknev>Kovacs</vezeteknev>
+        <keresztnev>Kristóf</keresztnev>
+        <becenev>Krinya</becenev>
+        <kor>25</kor>
+    </student>
+
+    <student id = "03">
+        <vezeteknev>Dekány</vezeteknev>
+        <keresztnev>Balázs</keresztnev>
+        <becenev>Bazsi</becenev>
+        <kor>19</kor>
+    </student>
+</class>
