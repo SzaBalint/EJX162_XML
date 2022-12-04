@@ -27,7 +27,7 @@ public class DomModifyEJX162 {
 	public static void main(String[] args) throws ParserConfigurationException, SAXException, IOException,
     XPathExpressionException, DOMException, ParseException {
 		
-		File xml = new File("C:\\Users\\Bálint\\Desktop\\EGYETEM\\2022-23. 5.félév\\XML\\XMLTaskEJX162\\DOMParseEJX162\\XMLEJX162.xml");
+		File xml = new File("C:\\Users\\Bálint\\Desktop\\EGYETEM\\2022-23. 5.félév\\xml_beadando\\DOMParseEJX162\\src\\hu\\domparse\\ejx162\\XMLEJX162.xml");
 		
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         DocumentBuilder builder = factory.newDocumentBuilder();
@@ -67,6 +67,7 @@ public class DomModifyEJX162 {
 
                 double price = Double.parseDouble(pizza.getTextContent());
                 pizza.setTextContent(Double.toString(price * 0.9));
+                
             }
         }
     }

@@ -16,7 +16,7 @@ import org.xml.sax.SAXException;
 public class DomQueryEJX162 {
 
 	public static void main(String[] args) throws ParserConfigurationException, SAXException, IOException {
-		File file = new File("C:\\\\Users\\\\Bálint\\\\Desktop\\\\EGYETEM\\\\2022-23. 5.félév\\\\XML\\\\XMLTaskEJX162\\\\DOMParseEJX162\\\\XMLEJX162.xml");
+		File file = new File("C:\\Users\\Bálint\\Desktop\\EGYETEM\\2022-23. 5.félév\\xml_beadando\\DOMParseEJX162\\src\\hu\\domparse\\ejx162\\XMLEJX162.xml");
 		// Parse-olás
 		DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
 		DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
